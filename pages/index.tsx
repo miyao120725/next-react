@@ -218,39 +218,6 @@ export default class extends React.Component<IProps> {
                 </a> */}
               {/* </div> */}
 
-                <div className="row np-element np-hover-inverse np-shadow-inverse itemCart">
-                  <h6 className="col-12 item-title">
-                    <i className="iconfont icon-zixun nav-icon"></i>AI资讯
-                  </h6>
-
-                  <a href="https://www.jiqizhixin.com/" target="_blank" className="item col-12 col-sm-6 col-md-4 col-lg-3">
-                  <div className="np-element np-hover np-shadow d-flex flex-column justify-content-center">
-                  <div className="d-flex justify-content-center align-items-center">
-                  <img className="favicon" src="https://www.puuuq.cn/static/iconfont/15830431783189723.ico" alt="机器之心"/>
-                  <h6 className="site-name">机器之心</h6>
-                  </div>
-                  <div className="introduction">机器之心是国内领先的前沿科技媒体和产业服务平台，关注人工智能、机器人和神经认知科学，坚持为从业者提供高质量内容和多项产业服务。</div>
-                  </div>
-                  </a>
-                  <a href="https://www.jiqizhixin.com/" target="_blank" className="item col-12 col-sm-6 col-md-4 col-lg-3">
-                  <div className="np-element np-hover np-shadow d-flex flex-column justify-content-center">
-                  <div className="d-flex justify-content-center align-items-center">
-                  <img className="favicon" src="https://www.puuuq.cn/static/iconfont/15830431783189723.ico" alt="机器之心"/>
-                  <h6 className="site-name">机器之心</h6>
-                  </div>
-                  <div className="introduction">机器之心是国内领先的前沿科技媒体和产业服务平台，关注人工智能、机器人和神经认知科学，坚持为从业者提供高质量内容和多项产业服务。</div>
-                  </div>
-                  </a>
-                  <a href="https://www.jiqizhixin.com/" target="_blank" className="item col-12 col-sm-6 col-md-4 col-lg-3">
-                  <div className="np-element np-hover np-shadow d-flex flex-column justify-content-center">
-                  <div className="d-flex justify-content-center align-items-center">
-                  <img className="favicon" src="https://www.puuuq.cn/static/iconfont/15830431783189723.ico" alt="机器之心"/>
-                  <h6 className="site-name">机器之心</h6>
-                  </div>
-                  <div className="introduction">机器之心是国内领先的前沿科技媒体和产业服务平台，关注人工智能、机器人和神经认知科学，坚持为从业者提供高质量内容和多项产业服务。</div>
-                  </div>
-                  </a>
-                </div>
               </div>
             </div>
           </div>
