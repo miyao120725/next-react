@@ -77,7 +77,8 @@ class ListIndex extends React.Component<IProps> {
                     return (
                       <Link href={`/${item.id}?title=${item.nav_title}`} key={index}>
                         <button className="np-btn nav-btn" data-icon="icon-kaifangpingtai">
-                          <i className="iconfont icon-kaifangpingtai nav-icon"></i>
+                          {/* <i className="iconfont icon-kaifangpingtai nav-icon"></i> */}
+                          <img src={item.icon_img} className="nav-icon" alt=""/>
                           {item.nav_title}
                         </button>
                       </Link>
@@ -275,6 +276,12 @@ class ListIndex extends React.Component<IProps> {
                 white-space: nowrap;
                 border-radius: 50px;
                 outline: none;
+              }
+
+              .nav-icon{
+                height: 16px;
+                margin-right:4px;
+                margin-top: -2px;
               }
 
               .np-btn{

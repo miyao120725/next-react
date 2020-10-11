@@ -39,7 +39,7 @@ export default class extends React.Component<IProps> {
   static async getInitialProps({ req }) {
     // console.log(1111,req)
     let dataList=[];
-    let navList=[];
+    let navList:any=[];
     // const userAgent = req ? req.headers['user-agent'] : navigator.userAgent
 
     // const nav=await this.navApiList();
@@ -54,7 +54,7 @@ export default class extends React.Component<IProps> {
     });
     
     const options={
-      id:'9'
+      id:navList[0].id
      }
     await Api.listApi(options).then((res) => {
        if (res.data.code === 0) {
@@ -304,7 +304,7 @@ export default class extends React.Component<IProps> {
               }
 
               .nav-icon{
-                width: 16px;
+                height: 16px;
                 margin-right:4px;
                 margin-top: -2px;
               }
