@@ -247,7 +247,7 @@ class ListIndex extends React.Component<IProps> {
 
               .right{
                 width: 100%;
-                height: 100%;
+                // height: 100%;
                 padding-left: .2rem;
                 padding-right: .2rem;
               }
